@@ -1,10 +1,10 @@
-Noctis is a fork of [Delta-V](https://github.com/DeltaV-Station/Delta-v), which is a fork of [Space Station 14] (https://github.com/space-wizards/space-station-14).
+Noctis is a fork of [Delta-V](https://github.com/DeltaV-Station/Delta-v), which is a fork of [Space Station 14](https://github.com/space-wizards/space-station-14).
 
 ## Links
 
 #### Noctis
 
-[Discord] (https://discord.gg/WTnak8EZm9) | [Telegram] (https://t.me/ss14roleplay)
+[Discord](https://discord.gg/WTnak8EZm9) | [Telegram](https://t.me/ss14roleplay)
 
 #### Delta-V
 [Website](https://delta-v.org/) | [Wiki](https://wiki.delta-v.org/view/Main_Page) | [Discord](https://discord.gg/BRCBAxw65X)
