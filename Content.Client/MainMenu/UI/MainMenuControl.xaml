@@ -1,4 +1,4 @@
-﻿<Control xmlns="https://spacestation14.io"
+<Control xmlns="https://spacestation14.io"
          xmlns:pllax="clr-namespace:Content.Client.Parallax"
          xmlns:clog="clr-namespace:Content.Client.Changelog">
     <pllax:ParallaxControl />
@@ -41,6 +41,7 @@
                 Name="ChangelogButton"
                 Access="Public"/>
         </BoxContainer>
-        <Label Name="VersionLabel" Text="v0.1" />
+        
+        <Label Name="TeamVersionLabel" Text="version 0.1&#x0a;Noctis Team" />
     </LayoutContainer>
 </Control>

@@ -22,6 +22,7 @@
   - Zookeeper
   - Quartermaster
   - Prisoner
+  - Priest
 
 - type: department
   id: Command

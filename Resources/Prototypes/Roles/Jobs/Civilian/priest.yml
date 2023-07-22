@@ -1,0 +1,38 @@
+- type: job
+  id: Priest
+  name: job-name-priest
+  description: job-description-priest
+  playTimeTracker: JobPriest
+  startingGear: PriestGear
+  icon: "Priest"
+  supervisors: job-supervisors-hop
+  access:
+  - Theatre
+  - Service
+  extendedAccess:
+  - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Clumsy
+      clumsyDamage:
+        types: #literally just picked semi random valus. i tested this once and tweaked it.
+          Blunt: 5
+          Piercing: 4
+        groups:
+          Burn: 3
+  - !type:AddImplantSpecial
+    implants: [ SadTromboneImplant ]
+
+- type: startingGear
+  id: PriestGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMusician
+    back: ClothingBackpackMusicianFilled
+    eyes: ClothingEyesGlassesSunglasses
+    shoes: ClothingShoesBootsLaceup
+    id: MusicianPDA
+    ears: ClothingHeadsetService
+  innerclothingskirt: ClothingUniformDressRed
+  satchel: ClothingBackpackSatchelMusicianFilled
+  duffelbag: ClothingBackpackDuffelMusicianFilled

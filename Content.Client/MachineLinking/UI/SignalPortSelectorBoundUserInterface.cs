@@ -1,4 +1,4 @@
-﻿using Content.Shared.MachineLinking;
+using Content.Shared.MachineLinking;
 using JetBrains.Annotations;
 using Robust.Client.GameObjects;
 

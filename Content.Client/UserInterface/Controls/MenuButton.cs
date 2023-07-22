@@ -16,10 +16,11 @@ public sealed class MenuButton : ContainerButton
     private const float CustomTooltipDelay = 0.4f;
 
     private static readonly Color ColorNormal = Color.FromHex("#7b7e7e");
-    private static readonly Color ColorRedNormal = Color.FromHex("#FEFEFE");
-    private static readonly Color ColorHovered = Color.FromHex("#969999");
-    private static readonly Color ColorRedHovered = Color.FromHex("#FFFFFF");
-    private static readonly Color ColorPressed = Color.FromHex("#789B8C");
+    private static readonly Color ColorHovered = Color.FromHex("#414F2F");
+    private static readonly Color ColorPressed = Color.FromHex("#D1D3D3");
+
+    private static readonly Color ColorRedNormal = Color.FromHex("#95B56C");
+    private static readonly Color ColorRedHovered = Color.FromHex("#C8F291");
 
     private const float VertPad = 8f;
     private Color NormalColor => HasStyleClass(StyleClassRedTopButton) ? ColorRedNormal : ColorNormal;

@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Numerics;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
@@ -28,6 +28,7 @@ namespace Content.Client.Configurable.UI
             _inputs = new List<(string name, LineEdit input)>();
 
             Title = Loc.GetString("configuration-menu-device-title");
+            //Title = "Noctis";
 
             BoxContainer baseContainer = new BoxContainer
             {
